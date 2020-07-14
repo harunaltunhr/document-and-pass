@@ -3,7 +3,7 @@
 <!-- END TITLE -->
 
 <!-- BEGIN TOC -->
-> 7/3/2020, 3:35:30 PM
+> 7/12/2020, 11:38:21 AM
 
 - [0-hello-world](#0-hello-world)
 - [1-remove-from-array](#1-remove-from-array)
@@ -44,6 +44,8 @@ console.log(greeting); // 'Hello, World!'
 ```
 **Test Report**
 ```
+7/12/2020, 11:38:20 AM
+
 Started
 .F..F.
 
@@ -72,6 +74,8 @@ Finished in 0.009 seconds
 
 **Test Report**
 ```
+7/12/2020, 11:38:21 AM
+
 Started
 .F..F..F..F..F..F..F.
 
@@ -98,7 +102,7 @@ Failures:
 .    Expected undefined to equal [ 1, 2 ]..
 
 7 specs, 7 failures
-Finished in 0.008 seconds
+Finished in 0.007 seconds
 
 ```
 
@@ -115,6 +119,8 @@ Finished in 0.008 seconds
 
 **Test Report**
 ```
+7/12/2020, 11:38:21 AM
+
 Started
 .F..F..F..F..F..F..F.
 
@@ -141,7 +147,7 @@ Failures:
 .    Expected undefined to equal ''..
 
 7 specs, 7 failures
-Finished in 0.007 seconds
+Finished in 0.008 seconds
 
 ```
 
@@ -158,6 +164,8 @@ Finished in 0.007 seconds
 
 **Test Report**
 ```
+7/12/2020, 11:38:21 AM
+
 Started
 .F..F..F..F.
 
@@ -192,6 +200,8 @@ Finished in 0.003 seconds
 
 **Test Report**
 ```
+7/12/2020, 11:38:21 AM
+
 Started
 .F..F..F..F..F..F.
 
@@ -215,7 +225,7 @@ Failures:
 .    Expected undefined to equal 'ERROR'..
 
 6 specs, 6 failures
-Finished in 0.005 seconds
+Finished in 0.006 seconds
 
 ```
 
@@ -232,6 +242,8 @@ Finished in 0.005 seconds
 
 **Test Report**
 ```
+7/12/2020, 11:38:21 AM
+
 Started
 .F..F..F..F..F..F..F..F..F.
 
@@ -281,6 +293,8 @@ Finished in 0.008 seconds
 
 **Test Report**
 ```
+7/12/2020, 11:38:21 AM
+
 Started
 .F.
 
@@ -306,6 +320,8 @@ Finished in 0.001 seconds
 
 **Test Report**
 ```
+7/12/2020, 11:38:21 AM
+
 Started
 .F..F..F..F..F..F.
 
@@ -346,6 +362,8 @@ Finished in 0.005 seconds
 
 **Test Report**
 ```
+7/12/2020, 11:38:21 AM
+
 Started
 .F..F..F..F..F.
 
@@ -366,7 +384,7 @@ Failures:
 .    Expected undefined to equal false..
 
 5 specs, 5 failures
-Finished in 0.005 seconds
+Finished in 0.004 seconds
 
 ```
 
@@ -383,6 +401,8 @@ Finished in 0.005 seconds
 
 **Test Report**
 ```
+7/12/2020, 11:38:21 AM
+
 Started
 .F..F..F..F..F..F..F.
 
@@ -426,6 +446,8 @@ Finished in 0.006 seconds
 
 **Test Report**
 ```
+7/12/2020, 11:38:21 AM
+
 Started
 .F..F..F.
 
@@ -440,7 +462,7 @@ Failures:
 .    TypeError: Cannot read property 'name' of undefined.
 
 3 specs, 3 failures
-Finished in 0.003 seconds
+Finished in 0.004 seconds
 
 ```
 
@@ -457,6 +479,8 @@ Finished in 0.003 seconds
 
 **Test Report**
 ```
+7/12/2020, 11:38:21 AM
+
 Started
 .F..F..F..F..F..F..F..F..F.
 
@@ -489,7 +513,7 @@ Failures:
 .    Expected undefined to equal 'ethay ickquay ownbray oxfay'..
 
 9 specs, 9 failures
-Finished in 0.007 seconds
+Finished in 0.008 seconds
 
 ```
 
@@ -506,6 +530,8 @@ Finished in 0.007 seconds
 
 **Test Report**
 ```
+7/12/2020, 11:38:21 AM
+
 Started
 .F..F..F..F..F..F.
 
@@ -529,7 +555,7 @@ Failures:
 .    Expected undefined to equal 'snake_case_is_awesome'..
 
 6 specs, 6 failures
-Finished in 0.005 seconds
+Finished in 0.007 seconds
 
 ```
 
