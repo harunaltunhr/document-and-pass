@@ -3,7 +3,7 @@
 <!-- END TITLE -->
 
 <!-- BEGIN TOC -->
-> 7/12/2020, 11:38:21 AM
+> 7/15/2020, 03:12:23
 
 - [0-hello-world](#0-hello-world)
 - [1-remove-from-array](#1-remove-from-array)
@@ -39,25 +39,18 @@ A very simple function, it greets whatever you tell it to
 
 **Example**  
 ```js
-const greeting = hello('World');
-console.log(greeting); // 'Hello, World!'
+const greeting = hello('World');console.log(greeting); // 'Hello, World!'
 ```
 **Test Report**
 ```
-7/12/2020, 11:38:20 AM
+7/15/2020, 03:11:02
 
 Started
-.F..F.
+......
 
-Failures:
-1) Hello says hello world
-.    Expected '' to equal 'Hello, World!'..
 
-2) Hello says hello toys
-.    Expected '' to equal 'Hello, toys!'..
-
-2 specs, 2 failures
-Finished in 0.009 seconds
+2 specs, 0 failures
+Finished in 0.064 seconds
 
 ```
 
@@ -74,35 +67,14 @@ Finished in 0.009 seconds
 
 **Test Report**
 ```
-7/12/2020, 11:38:21 AM
+7/15/2020, 03:11:02
 
 Started
-.F..F..F..F..F..F..F.
+.....................
 
-Failures:
-1) removeFromArray removes a single value
-.    Expected undefined to equal [ 1, 2, 4 ]..
 
-2) removeFromArray removes multiple values
-.    Expected undefined to equal [ 1, 4 ]..
-
-3) removeFromArray ignores non present values
-.    Expected undefined to equal [ 1, 2, 3, 4 ]..
-
-4) removeFromArray ignores non present values, but still works
-.    Expected undefined to equal [ 1, 3, 4 ]..
-
-5) removeFromArray can remove all values
-.    Expected undefined to equal [  ]..
-
-6) removeFromArray works with strings
-.    Expected undefined to equal [ 2, 'ho' ]..
-
-7) removeFromArray only removes same type
-.    Expected undefined to equal [ 1, 2 ]..
-
-7 specs, 7 failures
-Finished in 0.007 seconds
+7 specs, 0 failures
+Finished in 0.166 seconds
 
 ```
 
@@ -119,35 +91,14 @@ Finished in 0.007 seconds
 
 **Test Report**
 ```
-7/12/2020, 11:38:21 AM
+7/15/2020, 03:11:02
 
 Started
-.F..F..F..F..F..F..F.
+.....................
 
-Failures:
-1) repeatString repeats the string
-.    Expected undefined to equal 'heyheyhey'..
 
-2) repeatString repeats the string many times
-.    Expected undefined to equal 'heyheyheyheyheyheyheyheyheyhey'..
-
-3) repeatString repeats the string 1 times
-.    Expected undefined to equal 'hey'..
-
-4) repeatString repeats the string 0 times
-.    Expected undefined to equal ''..
-
-5) repeatString returns ERROR with negative numbers
-.    Expected undefined to equal 'ERROR'..
-
-6) repeatString repeats the string a random amount of times
-.    TypeError: Cannot read property 'match' of undefined.
-
-7) repeatString works with blank strings
-.    Expected undefined to equal ''..
-
-7 specs, 7 failures
-Finished in 0.008 seconds
+7 specs, 0 failures
+Finished in 0.148 seconds
 
 ```
 
@@ -164,26 +115,14 @@ Finished in 0.008 seconds
 
 **Test Report**
 ```
-7/12/2020, 11:38:21 AM
+7/15/2020, 03:11:03
 
 Started
-.F..F..F..F.
+............
 
-Failures:
-1) reverseString reverses single word
-.    Expected undefined to equal 'olleh'..
 
-2) reverseString reverses multiple words
-.    Expected undefined to equal 'ereht olleh'..
-
-3) reverseString works with numbers and punctuation
-.    Expected undefined to equal '!cba !321'..
-
-4) reverseString works with blank strings
-.    Expected undefined to equal ''..
-
-4 specs, 4 failures
-Finished in 0.003 seconds
+4 specs, 0 failures
+Finished in 0.13 seconds
 
 ```
 
@@ -200,32 +139,7 @@ Finished in 0.003 seconds
 
 **Test Report**
 ```
-7/12/2020, 11:38:21 AM
-
 Started
-.F..F..F..F..F..F.
-
-Failures:
-1) sumAll sums numbers within the range
-.    Expected undefined to equal 10..
-
-2) sumAll works with large numbers
-.    Expected undefined to equal 8002000..
-
-3) sumAll works with larger number first
-.    Expected undefined to equal 7626..
-
-4) sumAll returns ERROR with negative numbers
-.    Expected undefined to equal 'ERROR'..
-
-5) sumAll returns ERROR with non-number parameters
-.    Expected undefined to equal 'ERROR'..
-
-6) sumAll returns ERROR with non-number parameters
-.    Expected undefined to equal 'ERROR'..
-
-6 specs, 6 failures
-Finished in 0.006 seconds
 
 ```
 
@@ -242,7 +156,7 @@ Finished in 0.006 seconds
 
 **Test Report**
 ```
-7/12/2020, 11:38:21 AM
+7/15/2020, 02:28:49
 
 Started
 .F..F..F..F..F..F..F..F..F.
@@ -276,7 +190,7 @@ Failures:
 .    Expected undefined to equal 21..
 
 9 specs, 9 failures
-Finished in 0.008 seconds
+Finished in 0.114 seconds
 
 ```
 
@@ -293,7 +207,7 @@ Finished in 0.008 seconds
 
 **Test Report**
 ```
-7/12/2020, 11:38:21 AM
+7/15/2020, 02:28:49
 
 Started
 .F.
@@ -303,7 +217,7 @@ Failures:
 .    Expected undefined to equal [ 'Book', 'Book2' ]..
 
 1 spec, 1 failure
-Finished in 0.001 seconds
+Finished in 0.038 seconds
 
 ```
 
@@ -320,7 +234,7 @@ Finished in 0.001 seconds
 
 **Test Report**
 ```
-7/12/2020, 11:38:21 AM
+7/15/2020, 02:28:50
 
 Started
 .F..F..F..F..F..F.
@@ -345,7 +259,7 @@ Failures:
 .    Expected undefined to equal false..
 
 6 specs, 6 failures
-Finished in 0.005 seconds
+Finished in 0.061 seconds
 
 ```
 
@@ -362,7 +276,7 @@ Finished in 0.005 seconds
 
 **Test Report**
 ```
-7/12/2020, 11:38:21 AM
+7/15/2020, 02:28:50
 
 Started
 .F..F..F..F..F.
@@ -384,7 +298,7 @@ Failures:
 .    Expected undefined to equal false..
 
 5 specs, 5 failures
-Finished in 0.004 seconds
+Finished in 0.058 seconds
 
 ```
 
@@ -401,7 +315,7 @@ Finished in 0.004 seconds
 
 **Test Report**
 ```
-7/12/2020, 11:38:21 AM
+7/15/2020, 02:28:52
 
 Started
 .F..F..F..F..F..F..F.
@@ -429,7 +343,7 @@ Failures:
 .    Expected undefined to equal 'Ebiil, Tloia!'..
 
 7 specs, 7 failures
-Finished in 0.006 seconds
+Finished in 0.059 seconds
 
 ```
 
@@ -446,7 +360,7 @@ Finished in 0.006 seconds
 
 **Test Report**
 ```
-7/12/2020, 11:38:21 AM
+7/15/2020, 02:28:52
 
 Started
 .F..F..F.
@@ -462,7 +376,7 @@ Failures:
 .    TypeError: Cannot read property 'name' of undefined.
 
 3 specs, 3 failures
-Finished in 0.004 seconds
+Finished in 0.145 seconds
 
 ```
 
@@ -479,7 +393,7 @@ Finished in 0.004 seconds
 
 **Test Report**
 ```
-7/12/2020, 11:38:21 AM
+7/15/2020, 02:28:53
 
 Started
 .F..F..F..F..F..F..F..F..F.
@@ -513,7 +427,7 @@ Failures:
 .    Expected undefined to equal 'ethay ickquay ownbray oxfay'..
 
 9 specs, 9 failures
-Finished in 0.008 seconds
+Finished in 0.125 seconds
 
 ```
 
@@ -530,7 +444,7 @@ Finished in 0.008 seconds
 
 **Test Report**
 ```
-7/12/2020, 11:38:21 AM
+7/15/2020, 02:28:54
 
 Started
 .F..F..F..F..F..F.
@@ -555,7 +469,7 @@ Failures:
 .    Expected undefined to equal 'snake_case_is_awesome'..
 
 6 specs, 6 failures
-Finished in 0.007 seconds
+Finished in 0.069 seconds
 
 ```
 

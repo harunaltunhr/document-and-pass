@@ -1,4 +1,4 @@
-7/12/2020, 11:38:21 AM
+7/15/2020, 02:28:52
 
 Started
 .F..F..F.
@@ -14,4 +14,4 @@ Failures:
 .    TypeError: Cannot read property 'name' of undefined.
 
 3 specs, 3 failures
-Finished in 0.004 seconds
+Finished in 0.145 seconds
